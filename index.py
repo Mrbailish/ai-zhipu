@@ -9,7 +9,7 @@ with col:
         st.switch_page("pages/demo-history.py")
 #
 with col1:
-    st.image("https://t7.baidu.com/it/u=2656780661,2835874604&fm=193&f=GIF", use_column_width=True)
+    st.image("https://th.bing.com/th/id/OIP.0NipysZAT58B_EvnMQsOewHaId?pid=ImgDet&w=178&h=203&c=7", use_column_width=True)
     flag = st.button("绘图",use_container_width=True)
     if flag:
         st.switch_page("pages/textToImage.py")
