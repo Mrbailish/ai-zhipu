@@ -5,7 +5,7 @@ import streamlit as st
 from zhipuai import ZhipuAI
 # 先构建智谱AI的大模型
 model = ZhipuAI(api_key="b4726e42f278d5b63e8cbd7400c87a97.NOuIfpwmouyKKw5R")
-st.title("设计大师")
+st.title("🙋🙋  听文绘图设计大师  🙋🙋")
 if "cache" not in st.session_state:
     st.session_state.cache = []
 else:
