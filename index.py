@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("AI大模型应用产品网")
+st.title("🙋🙋 AI大模型应用产品网 🙋🙋")
 col,col1, = st.columns(2)
 
 with col:
