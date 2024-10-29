@@ -52,7 +52,7 @@ if problem:
     # pages、将用户的问题输出到界面上，以用户的角色输出
     with st.chat_message("user"):
         st.write(problem)
-        st.session_state.cache.append({"role": "user", "content": problem})
+            st.session_state.cache.append({"role": "user", "content": problem})
     # 2、调用大模型回答问题//调用链chain
     # result = model.invoke(problem)
     result = chain.invoke({"input":problem})
