@@ -5,7 +5,7 @@ pages,大模型对象
 4，记忆模块对象
 '''
 # 提示词对象
-from langchain.prompts import PromptTemplate
+# from langchain.prompts import PromptTemplate
 # 链
 from langchain.chains import LLMChain
 # 记忆模块对象
