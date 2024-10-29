@@ -12,7 +12,7 @@ from langchain.memory import ConversationBufferMemory
 import streamlit as st
 # langchain调用大模型，导入langchain的代码
 from langchain_openai import ChatOpenAI
-st.title("🙋✿🙋  你的恋人小付  🙋✿🙋")
+st.title("🙋✿🙋  你的恋人  🙋✿🙋")
 # 构建一个大模型 --智谱AI公司提供的大模型
 model = ChatOpenAI(
     temperature=1,  # 温度
