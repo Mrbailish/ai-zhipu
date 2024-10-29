@@ -1,15 +1,8 @@
-'''
-pages,大模型对象
-2，提示词对象
-3，chain链
-4，记忆模块对象
-'''
-# 提示词对象
-# from langchain.prompts import PromptTemplate
+from langchain.prompts import PromptTemplate
 # 链
-# from langchain.chains import LLMChain
+from langchain.chains import LLMChain
 # 记忆模块对象
-# from langchain.memory import ConversationBufferMemory
+from langchain.memory import ConversationBufferMemory
 
 
 # 制作一个聊天界面
